@@ -10,13 +10,12 @@ function onInputBlur(event){
     // console.log(event.currentTarget.value.length !== inputEl.getAttribute('data-length'))
     // console.log(event.currentTarget.value.length)
     // console.log(inputEl.getAttribute('data-length'))
-   
-  } else if(event.currentTarget.value.length === Number(inputEl.getAttribute('data-length'))){
+  }else if(event.currentTarget.value.length === 0) {
+    inputEl.classList.remove('invalid')
+  }
+  else if(event.currentTarget.value.length === Number(inputEl.getAttribute('data-length'))){
     inputEl.classList.remove('invalid')
     inputEl.classList.add('valid')}
-
-    
-    
       // console.log(event.currentTarget.value.length)
 }
 
