@@ -10,8 +10,9 @@ function onInputClick(event){
 spanEl.style.fontSize = '30px'
 }
 else if(inputEl.value >= 80 && inputEl.value <= 100) {
-    spanEl.style.fontSize = '40px'
-}else spanEl.style.fontSize = '16px'
+    spanEl.style.fontSize = '40px'  
+}
+else spanEl.style.fontSize = '16px'
 
 }
 console.log(inputEl.value)
