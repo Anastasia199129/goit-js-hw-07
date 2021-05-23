@@ -9,6 +9,6 @@ inputEl.addEventListener('input', onInputClick)
 function onInputClick(event){
     spanEl.textContent = event.currentTarget.value
     if(event.currentTarget.value.length === 0){
-        spanEl.textContent = 'Незнакомец'
+        spanEl.textContent = 'незнакомец'
     }
 }
