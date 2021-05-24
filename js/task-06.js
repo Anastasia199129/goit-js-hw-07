@@ -17,6 +17,6 @@ function onInputBlur(event){
     inputEl.classList.remove('invalid')
     inputEl.classList.add('valid')}
       // console.log(event.currentTarget.value.length)
-}
+  }
 
 
